@@ -1,24 +1,22 @@
-$("#esconder").click(function (){
+$("#esconder").click(function () {
     $("#teste1").hide();
 });
 
-$("#mostrar").click(function(){
+$("#mostrar").click(function () {
     $("#teste1").show();
 });
 
-$("#alterarCSS").click(function(){
+$("#alterarCSS").click(function () {
     $("#teste2").css({
-        "backgound-color": "blue",
+        "background-color": "blue",
         "font-size": "200%",
         "color": "white"
     });
 });
 
-$("#alterarClass").click(function(){
-    $("#teste3").removeClass("alert-success").addClass
-    ("alert-primary");
-    $("#alterarClass").removeClass("btn-success").addClass
-    ("btn-danger");
+$("#alterarClass").click(function () {
+    $("#teste3").removeClass("alert-success").addClass("alert-primary");
+    $("#alterarClass").removeClass("btn-success").addClass("btn-danger");
 });
 
 $("#alternar1").hide();
@@ -29,8 +27,8 @@ $("#alternar1").click(function () {
         "title" : "CPS"
     });
     $("#link").text("CPS");
-    $("#alterar1").hide();
-    $("#alterar2").show();
+    $("#alternar1").hide();
+    $("#alternar2").show();
 });
 
 $("#alternar2").click(function () {
@@ -39,6 +37,6 @@ $("#alternar2").click(function () {
         "title" : "Etec Itu"
     });
     $("#link").text("Etec Itu");
-    $("#alterar1").hide();
-    $("#alterar2").show();
+    $("#alternar2").hide();
+    $("#alternar1").show();
 });
